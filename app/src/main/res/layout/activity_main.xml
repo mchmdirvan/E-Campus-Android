@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_column="3"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/student1"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lihatbtn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/custom_btn1"
+            android:text="LIHAT DATA"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/inputbtn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="INPUT DATA"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_btn2"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/infobtn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="INFORMASI"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_btn3" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
